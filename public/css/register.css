@@ -1,0 +1,105 @@
+.register {
+  padding: 50px 0;
+}
+
+.register form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 583px;
+  margin: auto;
+}
+
+.register form input {
+    border: none;
+    padding: 10px;
+    margin: 2px 0;
+}
+.register form input::placeholder {
+    color: lightslategray;
+    letter-spacing: 1px;
+}
+
+.register form input:active,
+.register form input:focus {
+  outline: none;
+}
+
+.activity {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px;
+}
+
+.activity div {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-direction: row-reverse;
+}
+.category-title{
+    font-size: 1.3rem;
+    margin: 15px 0;
+}
+.categories-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.categories-list li {
+  margin: 10px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: start;
+  gap: 21px;
+  align-items: center;
+}
+
+/* INPUT FILE */
+.button-wrapper {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+}
+
+.avatarFile {
+  position: relative;
+  z-index: 0;
+  display: block;
+  width: 100%;
+  background: #00bfff;
+  cursor: pointer;
+  color: #fff;
+  padding: 10px 0;
+  text-transform: uppercase;
+  font-size: 12px;
+  border-radius: 0 0 9px 9px;
+}
+
+.upload {
+  display: none;
+}
+/* INPUT FILE END */
+/* preview file */
+.preview{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    margin: 0 auto 20px auto;
+    border-radius: 10px;
+    background-color: white;
+    background-image: url("https://www.softzone.es/app/uploads-softzone.es/2018/04/guest.png");
+    background-size: contain;
+}
+/* preview file end */
+.buttonsForm {
+  display: flex;
+  gap: 30px;
+}
+
+.buttonsForm button {
+  padding: 5px 20px;
+  width: 50%;
+}

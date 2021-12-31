@@ -1,0 +1,22 @@
+.login{
+    height: 50vh;
+    padding-top: 60px;
+}
+
+.login form input {
+  border: none;
+  padding: 10px;
+  margin: 2px 0;
+}
+
+.login form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 583px;
+  margin: auto;
+}
+
+.hover-btn:hover{
+  background-color: #0022AA;
+}
